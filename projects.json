@@ -1,0 +1,106 @@
+{
+    "Content": [{
+      "ongoing": [
+      {
+      "name":"bookshelf",
+      "image": "media/root/bookshelf.png",
+      "link": "https://www.bookshelf.town/",
+      "copy": "building a library with my brother",
+      "skills": ["dev"],
+      "color": "#da8d50"
+        },
+        {
+      "name":"aerial",
+      "image": "media/root/aerial.jpg",
+      "link": "",
+      "copy": "creating orthophotos of LA from historical aerial photos",
+      "color": "#da8d50",
+      "skills": ["research", "dev"]
+        },
+      {
+      "name":"police",
+      "link": "https://docs.google.com/spreadsheets/d/1wfxTmlxDEUTe_I31qsO-EKWQpTXzgSD9hW3BGSjP998/edit?usp=sharing",
+      "image": "/media/root/looting.jpg",
+      "copy": "Summarizing all police spending in LA County",
+      "skills": ["research"],
+      "color": "#86b59e"
+      }
+      ]
+      ,
+      "2022": [
+        {
+      "name":"hsla",
+      "image": "./media/root/hsla.jpg",
+      "link": "https://youtu.be/HS6WrJZKbjs",
+      "copy": "designed/developed for a ballot measure to build thousands of miles of safer streets in LA",
+      "skills": ["web", "design"],
+      "color": "#da8d50"
+        }
+      ],
+      "2021": [
+        {
+      "name":"nada",
+      "image": "./media/root/dfn2.jpg",
+      "link": "https://youtu.be/HS6WrJZKbjs",
+      "copy": "wrote and edited a short documentary on the consequences of highway expansion in LA",
+      "skills": ["video", "research"],
+      "color": "#da8d50"
+        },
+        {
+      "name":"la25x25",
+      "image": "./media/root/la25x25.png",
+      "link": "https://la25x25.com/",
+      "copy": "built and co-wrote a report challenging City of LA candidates to reallocate 25% of streets back to people",
+      "skills": ["web", "research", "design"],
+      "color": "#a9b578"
+        }
+      ],
+      "2020": [
+        {
+      "name":"baby",
+      "link": "https: //youtu.be/qt6aOic4OXk",
+      "image": "./media/root/baby.jpg",
+      "copy": "animated a music video for Merce Lemon",
+      "skills": ["video"],
+      "color": "#7d8335"
+        },
+        {
+      "name":"hive-marketing",
+      "image": "./media/root/575sml.jpg",
+      "link": "https://hivelighting.com/c-series/575-C/",
+      "copy": "helped launch the brightest point source omni-color LED in the world",
+      "skills": ["design", "video"],
+      "color": "#cf246f"
+        }
+      ],
+      "2019": [
+        {
+      "name":"parking",
+      "link": "https://noparkinghere.com/",
+      "image": "./media/root/parking.jpg",
+      "copy": "created a site advocating for the removal of parking minimums in LA",
+      "skills": ["web", "research"],
+      "color": "#517c9e"
+        },
+        {
+      "name":"hive-app",
+      "image": "./media/root/antenna.jpg",
+      "link": "https://nofilmschool.com/hive-shot-app",
+      "copy": "redesigned the Hive Lighting iOS and Android app",
+      "skills": ["design"],
+      "color": "#c188bb"
+        }
+      ],
+
+      "2017": [
+        {
+      "name":"duo",
+      "link": "https://vimeo.com/216630719",
+      "image": "./media/root/duoduot.jpg",
+      "copy": "co-directed 10 music videos with Anissa Amalia ",
+      "skills": ["video"],
+      "color": "#b53431"
+        }
+      ]
+  }]
+  }
