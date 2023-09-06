@@ -6,24 +6,37 @@ const getProjects = fetch('./projects.json')
         });
 
 
+// this builds a div for the project to live in
 const createDiv = (proj) => {
-    const projectParent = document.getElementById('projects')
-    console.log(proj)
-    const indproject = document.createElement("div");
-    const newContent = document.createTextNode(proj[0].name);
-    console.log(newContent)
-    indproject.appendChild(newContent);
-    projectParent.appendChild(indproject)
+    var linkText = document.createTextNode(proj.copy) ;
+    var li = document.createElement("li");
+    var a = document.createElement("a");
+    a.appendChild(linkText);
+    a.href = proj.link;
+    li.classList.add('project')
+    li.appendChild(a);
+    return(li)
 }
 
-
-
+// this walks through each project and runs createDiv on it
 const appendProjects = () => {
     getProjects.then((e) => {
-        console.log(e)
+        projects = Object.values(e[0]).reverse()
+        keys = Object.keys(e[0]).reverse()
 
-        Object.values(e[0]).map((proj) => {
-            createDiv(proj)
+        projects.map((proj, i) => {
+            const allprojects = document.getElementById('projects')
+            proj.map((wow) => {
+                var a = document.getElementById(keys[i])
+                if (a == null) {
+                    a = document.createElement("div")
+                    a.setAttribute("id", keys[i]);
+                    allprojects.appendChild(a)
+                }
+               
+                var okey = createDiv(wow)
+                a.appendChild(okey);
+            })
         })
         
     })
