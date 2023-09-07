@@ -34,7 +34,7 @@ code {
     padding: 1rem;
     max-width: 600px;
     overflow: scroll;
-    max-height: 90vh;
+    max-height: 50vh;
 }
 
 #projects img {
