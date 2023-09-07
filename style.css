@@ -127,11 +127,16 @@ details p{
 }
 
 @media only screen and (max-width: 700px) {
-
+    .window {
+        min-height: 100vh;
+        min-height: -webkit-fill-available;
+    }
 
     .flower {
         position: inherit;
     }
+
+
 #diary {
     left: 60%;
     bottom: 10%;
