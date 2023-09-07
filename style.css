@@ -128,6 +128,10 @@ details p{
 
 @media only screen and (max-width: 700px) {
 
+
+    .flower {
+        position: inherit;
+    }
 #diary {
     left: 60%;
     bottom: 10%;
