@@ -1,103 +1,130 @@
 {
-    "Content": [{
+  "Content": [
+    {
       "ongoing": [
-      {
-      "name":"bookshelf",
-      "image": "media/root/bookshelf.png",
-      "link": "https://www.bookshelf.town/",
-      "copy": "building a library with my brother",
-      "skills": ["dev"],
-      "color": "#da8d50"
+        {
+          "name": "bookshelf",
+          "image": "media/root/bookshelf.png",
+          "link": "https://www.bookshelf.town/",
+          "copy": "building a library with my brother",
+          "skills": [
+            "dev"
+          ]
         },
         {
-      "name":"aerial",
-      "image": "media/root/aerial.jpg",
-      "link": "https://aerial.joshvredevoogd.com",
-      "copy": "creating orthophotos of LA from historical aerial photos",
-      "color": "#da8d50",
-      "skills": ["research", "dev"]
+          "name": "aerial",
+          "image": "media/root/aerial.jpg",
+          "link": "https://aerial.joshvredevoogd.com",
+          "copy": "creating orthophotos of LA from historical aerial photos",
+          "skills": [
+            "research",
+            "dev"
+          ]
         },
-      {
-      "name":"police",
-      "link": "https://docs.google.com/spreadsheets/d/1wfxTmlxDEUTe_I31qsO-EKWQpTXzgSD9hW3BGSjP998/edit?usp=sharing",
-      "image": "/media/root/looting.jpg",
-      "copy": "summarizing all police spending in LA County",
-      "skills": ["research"],
-      "color": "#86b59e"
-      }
-      ]
-      ,
+        {
+          "name": "police",
+          "link": "https://docs.google.com/spreadsheets/d/1wfxTmlxDEUTe_I31qsO-EKWQpTXzgSD9hW3BGSjP998/edit?usp=sharing",
+          "image": "/media/root/looting.jpg",
+          "copy": "summarizing all police spending in LA County",
+          "skills": [
+            "research"
+          ]
+        }
+      ],
       "SFA": [
         {
-      "name":"hsla",
-      "link": "https://youtu.be/HS6WrJZKbjs",
-      "copy": "a ballot measure to build thousands of miles of safer streets",
-      "skills": ["web", "design"],
-      "color": "#da8d50"
+          "name": "hsla",
+          "link": "https://www.healthystreetsla.com",
+          "copy": "a ballot measure to build thousands of miles of safer streets",
+          "skills": [
+            "web",
+            "design"
+          ]
         },
         {
-      "name":"nada",
-      "link": "https://youtu.be/HS6WrJZKbjs",
-      "copy": "a short documentary on the consequences of highway expansion",
-      "skills": ["video", "research"],
-      "color": "#da8d50"
+          "name": "nada",
+          "link": "https://youtu.be/HS6WrJZKbjs",
+          "copy": "a short documentary on the consequences of highway expansion",
+          "skills": [
+            "video",
+            "research"
+          ]
         },
         {
-      "name":"la25x25",
-      "link": "https://la25x25.com/",
-      "copy": "a report challenging LA  to reallocate 25% of streets back to people",
-      "skills": ["web", "research", "design"],
-      "color": "#a9b578"
+          "name": "la25x25",
+          "link": "https://la25x25.com/",
+          "copy": "a report challenging LA  to reallocate 25% of streets back to people",
+          "skills": [
+            "web",
+            "research",
+            "design"
+          ]
         },
         {
-          "name":"bdsm",
+          "name": "bdsm",
           "link": "https://twitter.com/jawshv/status/1665142896050446336?s=20",
-          "copy": "fun shirts",
-          "skills": ["web", "research", "design"],
-          "color": "#a9b578"
-            }
+          "copy": "BDSM shirts for a cause",
+          "skills": [
+            "web",
+            "research",
+            "design"
+          ]
+        }
       ],
       "old": [
         {
-      "name":"baby",
-      "link": "https: //youtu.be/qt6aOic4OXk",
-      "image": "./media/root/baby.jpg",
-      "copy": "animated a music video for Merce Lemon",
-      "skills": ["video"],
-      "color": "#7d8335"
+          "name": "baby",
+          "link": "https://www.youtube.com/watch?v=qt6aOic4OXk",
+          "image": "./media/root/baby.jpg",
+          "copy": "animated a music video for Merce Lemon (2020)",
+          "skills": [
+            "video"
+          ],
+          "color": "#7d8335"
         },
         {
-      "name":"hive-marketing",
-      "image": "./media/root/575sml.jpg",
-      "link": "https://hivelighting.com/c-series/575-C/",
-      "copy": "helped launch the brightest point source omni-color LED in the world",
-      "skills": ["design", "video"],
-      "color": "#cf246f"
+          "name": "hive-marketing",
+          "image": "./media/root/575sml.jpg",
+          "link": "https://hivelighting.com/c-series/575-C/",
+          "copy": "helped launch the brightest point source omni-color LED in the world (2020)",
+          "skills": [
+            "design",
+            "video"
+          ],
+          "color": "#cf246f"
         },
         {
-      "name":"parking",
-      "link": "https://noparkinghere.com/",
-      "image": "./media/root/parking.jpg",
-      "copy": "created a site advocating for the removal of parking minimums in LA",
-      "skills": ["web", "research"],
-      "color": "#517c9e"
+          "name": "parking",
+          "link": "https://noparkinghere.com/",
+          "image": "./media/root/parking.jpg",
+          "copy": "created a site advocating for the removal of parking minimums in LA (2019)",
+          "skills": [
+            "web",
+            "research"
+          ],
+          "color": "#517c9e"
         },
         {
-      "name":"hive-app",
-      "image": "./media/root/antenna.jpg",
-      "link": "https://nofilmschool.com/hive-shot-app",
-      "copy": "redesigned the Hive Lighting iOS and Android app",
-      "skills": ["design"],
-      "color": "#c188bb"
+          "name": "hive-app",
+          "image": "./media/root/antenna.jpg",
+          "link": "https://nofilmschool.com/hive-shot-app",
+          "copy": "redesigned the Hive Lighting iOS and Android app (2018)",
+          "skills": [
+            "design"
+          ],
+          "color": "#c188bb"
         },
         {
-      "name":"duo",
-      "link": "https://vimeo.com/216630719",
-      "image": "./media/root/duoduot.jpg",
-      "copy": "co-directed 10 music videos with Anissa Amalia ",
-      "skills": ["video"],
-      "color": "#b53431"
+          "name": "duo",
+          "link": "https://vimeo.com/216630719",
+          "image": "./media/root/duoduot.jpg",
+          "copy": "co-directed 10 music videos with Anissa Amalia (2016)",
+          "skills": [
+            "video"
+          ],
+          "color": "#b53431"
         }
       ]
-  }]
-  }
+    }
+  ]
+}

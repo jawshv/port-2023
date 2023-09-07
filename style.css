@@ -1,22 +1,29 @@
 html {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     margin: none;
 }
 
+@font-face {
+    font-family: Mono;
+    src: url("./fonts/iAWriterMonoS-Regular.ttf");
+}
+
 body {
+    font-family: 'Times New Roman', Times, serif;
     margin: 0;
-    font-size: .8rem;
+    font-size: 1rem;
 }
 
 
 code {
-    font-size: .7rem;
-    background-color: rgb(231, 221, 206);
+    font-size: .8rem;
+    font-family: Mono;
+    background-color: rgb(235, 239, 243);
 }
 
 .window {
     padding: 1rem;
-    background-image: url("./grass.HEIC");
+    background-image: url("./images/grass.jpg");
     background-repeat: repeat;
     height: calc(100vh - 2rem);
 }
@@ -24,28 +31,29 @@ code {
 
 #projects {
     background-color: rgb(243, 237, 237);
-    padding: .5rem 1rem;
+    padding: 1rem;
     max-width: 600px;
 }
 
 #projects img {
     max-width: 150px;
-display: inline;
-}
+}   
 
 details {
     margin-top: 1rem;
 }
 
 #projects a {
-    color: rgb(122, 161, 13);
+    color: rgb(33, 33, 238);
     width: max-content;
     text-decoration: none;
 }
 
 #projects a:hover { 
-    color: green;
     text-decoration: underline;
+}
+summary {
+    cursor: pointer;
 }
 
 .flower {
@@ -60,33 +68,38 @@ details {
 details p{
     padding: .5rem;
     margin: 0;
-    border-left: .5rem solid rgb(227, 229, 218);
+    background-color: rgb(227, 229, 218);
     
 }
 
-/* notbook */
+/* notebook */
 #notebook {
     padding: 2rem;
-    max-width: 600px;
-    margin: auto
+}
+
+#notepage {
+    display: flex;
+    max-width: 100%;
+    flex-wrap: wrap;
 }
 
 #notebook a {
     color:rgb(255, 85, 0);
-    /* background-color: rgb(255, 255, 255); */
 }
 
 #notebook .post {
-    margin-top: 1rem;
-    background-color: rgb(227, 224, 202);
+    margin-right: .5rem;
+    margin-bottom: .5rem;
+    background-color: rgb(249, 246, 245);
     padding: 1rem;
-    color: rgb(90, 45, 45);
-
+    color: rgb(57, 52, 48);
+    max-width: 600px;
+    max-height: fit-content;
 }
 
 #copy {
     bottom: 0;
-    background-color: burlywood;
+    background-color: rgb(241, 152, 70);
 }
 
 #diary {
@@ -99,7 +112,7 @@ details p{
 #draws {
     left: 30%;
     bottom: 20%;
-    background-color: rgb(255, 149, 0);
+    background-color: rgb(221, 161, 178);
 }
 
 #notes {

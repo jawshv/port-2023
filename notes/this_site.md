@@ -1,10 +1,15 @@
 ## this is a website
 
-everyone should have one.
+everyone should have one and it should be something you can touch
 
-i don't think of myself as a web dev - but i've spent enough time in the gulag of javascript frameworks, headless CMSs, little custom api's, and rigid blog platforms that i really wanted to touch grass and downsize my personal site to vanilla html, css, and js. she's simple and static and feels very maluable and doesn't depend on *any* packages.
+i've spent enough time in the gulag of javascript frameworks, headless CMSs, little custom api's, and rigid blog platforms that i was desperate to touch grass and downsize my personal site to vanilla html, css, and js
 
-content wise, everything is either raw HTML, json files converted in script via `createElement`, or this blog which is fetched from an array of markdown files using a [tiny conversion library](https://github.com/adamvleggett/drawdown). 
+now she's simple and static and feels very maluable and doesn't depend on *any packages*
 
+re: content, everything is either raw HTML, json files converted to html via `createElement`, or this blog which is fetched from an array of markdown files using a tiny (4 KB) .md to HTML [conversion script](https://github.com/adamvleggett/drawdown/blob/master/drawdown.js)
+
+the site is built from this a repo that lives [here](https://github.com/adamvleggett/drawdown)
+
+2023 9 7
 
 

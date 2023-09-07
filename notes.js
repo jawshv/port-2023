@@ -1,5 +1,5 @@
 
-var notebook = document.getElementById("notebook")
+var notebook = document.getElementById("notepage")
 
 var notes = [
   "./notes/this_site.md"
