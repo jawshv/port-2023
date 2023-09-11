@@ -39,7 +39,7 @@ code {
 
 #projects img {
     max-width: 150px;
-}   
+}
 
 details {
     margin-top: 1rem;
@@ -51,27 +51,19 @@ details {
     text-decoration: none;
 }
 
-#projects a:hover { 
+#projects a:hover {
     text-decoration: underline;
 }
+
 summary {
     cursor: pointer;
 }
 
-.flower {
-    position: fixed;
-    text-decoration: none;
-}
-
-.flower:hover {
-    text-decoration: underline;
-}
-
-details p{
+details p {
     padding: .5rem;
     margin: 0;
     background-color: rgb(227, 229, 218);
-    
+
 }
 
 /* notebook */
@@ -86,7 +78,8 @@ details p{
 }
 
 #notebook a {
-    color:rgb(255, 98, 0);
+    color: rgb(255, 98, 0);
+    margin-bottom: 1rem;
 }
 
 #notebook .post {
@@ -101,6 +94,16 @@ details p{
 
 
 /* flowers */
+
+
+.flower {
+    position: fixed;
+    text-decoration: none;
+}
+
+.flower:hover {
+    text-decoration: underline;
+}
 
 #copy {
     bottom: 0;
@@ -137,19 +140,19 @@ details p{
     }
 
 
-#diary {
-    left: 60%;
-    bottom: 10%;
-}
+    #diary {
+        left: 60%;
+        bottom: 10%;
+    }
 
 
-#draws {
-    left: 23%;
-    bottom: 10%;
-}
+    #draws {
+        left: 23%;
+        bottom: 10%;
+    }
 
-#notes {
-    left: 50%;
-    bottom: 5%;
-}
+    #notes {
+        left: 50%;
+        bottom: 5%;
+    }
 }
