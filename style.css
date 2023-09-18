@@ -76,7 +76,7 @@ details p {
 }
 
 #notebook img{
-max-height: 20rem;
+height: 20rem;
 display: inline-block;
 }
 
@@ -143,6 +143,12 @@ display: inline-block;
         height: 100%;
         height: -webkit-fill-available;
         height: calc(100vh - env(safe-area-inset-bottom));
+    }
+
+    #notebook img {
+        width: 100%;
+        height: auto;
+        margin-top: .5rem;
     }
 
     .flower {
