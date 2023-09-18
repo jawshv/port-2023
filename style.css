@@ -37,7 +37,8 @@ code {
     padding: 1rem;
     max-width: 600px;
     overflow: scroll;
-    max-height: 80vh;
+    max-height: calc(100vh - 10rem);
+
 }
 
 #projects img {
@@ -141,6 +142,7 @@ display: inline-block;
     .window {
         height: 100%;
         height: -webkit-fill-available;
+        height: calc(100vh - env(safe-area-inset-bottom));
     }
 
     .flower {
