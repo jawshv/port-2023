@@ -11,12 +11,19 @@
 </head>
 
 <body>
-    <div class="window">
+    <div id="window">
         <div id="projects">
             <img src="./images/jort.JPG">
             <p> josh vredevoogd is an advocate living in Los
                 Angeles with multimedia design, branding, and research experience
             </p>
+            <div id="buttons">
+                <div style="background-color: greenyellow;" onClick="changeBackground('grass.jpg')"></div>
+                <div style="background-color: lightcyan;" onClick="changeBackground('cloud.jpg')"></div>
+                <div style="background-color: teal;"onClick="changeBackground('water.jpg')"></div>
+                <div style="background-color: pink;" onClick="changeBackground('flower.jpg')"></div>
+                <div style="background-color: forestgreen;" onClick="changeBackground('trees.jpeg')"></div>
+            </div>
             <details>
                 <summary>currently i'm at <a href="https://www.streetsforall.org">Streets for All</a>
                     advocating for a city that's easier to get around, working on things like...</summary>
@@ -55,5 +62,7 @@
     </div>
 
 </body>
+
+<script src="postscript.js"></script>
 
 </html>

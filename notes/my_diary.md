@@ -3,7 +3,7 @@
 
 [my diary](https://diary.joshvredevoogd.com/) is an experiment in a gentle feed
 
-for me (and i think like most people) traversing social media is a constant exercise in attention and turbulence and validation and crisis. and for whatever emotional upkeep it takes to exist there - i don't think it's dramatic to say stepping away from it is like uprooting a billboard broadcasting part of your existence
+for me (and i think like most people) traversing social media is a constant exercise in attention and turbulence and validation and crisis. and for whatever emotional upkeep it takes to garden it - i don't think it's dramatic to say stepping away from it is like uprooting a billboard broadcasting "hey i exist!"
 
 as i've been working on that balance, i still wanted the a way to export fleeting thoughts, i wanted to be able to do it from anywhere, low friction, but without the attention cost of a feed or validation, no app required, without the weight of it being for anything besides the definition of a moment
 

@@ -1,3 +1,8 @@
+const changeBackground = (url) => {
+    windows = document.getElementById('window')
+    windows.style.backgroundImage = `url('./images/${url}')`
+}
+
 
 const getProjects = fetch('./projects.json')
         .then((response) => response.json())
@@ -5,6 +10,7 @@ const getProjects = fetch('./projects.json')
             return json.Content
         });
 
+        
 
 // this builds a div for the project to live in
 const createDiv = (proj) => {
@@ -44,7 +50,3 @@ const appendProjects = () => {
 
 appendProjects()
 
-
-const testy = () => {
-    console.log('wow')
-}

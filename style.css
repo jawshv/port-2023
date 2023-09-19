@@ -24,10 +24,11 @@ code {
     background-color: rgb(235, 239, 243);
 }
 
-.window {
+#window {
     padding: 1rem;
-    background-image: url("./images/grass.jpg");
+    /* background-image: url("./images/grass.jpg"); */
     background-repeat: repeat;
+    background-color: rgb(243, 237, 237);
     height: calc(100vh - 2rem);
 }
 
@@ -47,6 +48,16 @@ code {
 
 details {
     margin-top: 1rem;
+}
+
+#buttons {
+    display: flex;
+    width: max-content;
+}
+
+#buttons div {
+    width: 1rem;
+    height: 1rem;
 }
 
 #projects a {
@@ -139,7 +150,7 @@ display: inline-block;
 }
 
 @media only screen and (max-width: 700px) {
-    .window {
+    #window {
         height: 100%;
         height: calc(100vh - env(safe-area-inset-bottom) - 2rem);
         height: -webkit-fill-available;
