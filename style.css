@@ -58,6 +58,8 @@ details {
 #buttons div {
     width: 1rem;
     height: 1rem;
+    line-height: 1rem;
+    cursor:pointer;
 }
 
 #projects a {
