@@ -1,5 +1,7 @@
 
-
+:root {
+    --bg: rgb(240, 239, 233);
+  }
 
 html {
     font-size: 1.1rem;
@@ -21,20 +23,20 @@ body {
 code {
     font-size: .8rem;
     font-family: Mono;
-    background-color: rgb(235, 239, 243);
+    background-color: var(--bg);
 }
 
 #window {
     padding: 1rem;
     /* background-image: url("./images/grass.jpg"); */
     background-repeat: repeat;
-    background-color: rgb(243, 237, 237);
+    background-color: var(--bg);
     height: calc(100vh - 2rem);
 }
 
 
 #projects {
-    background-color: rgb(243, 237, 237);
+    background-color: var(--bg);
     padding: 1rem;
     max-width: 600px;
     overflow: auto;
