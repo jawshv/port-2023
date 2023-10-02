@@ -2,18 +2,18 @@
 var notebook = document.getElementById("notepage")
 var nav = document.getElementById("nav")
 
-var notes = {
-  "this site": {
+var notes = [
+  {
     "date":"09_18_2023",
     "title":"my diary",
     "url":"./notes/my_diary.md"
   },
-  "my diary": {
+  {
     "date":"09_07_2023",
     "title":"this is a website",
     "url":"./notes/this_site.md"
   }
-}
+]
 
 var entries = Object.entries(notes)
 
