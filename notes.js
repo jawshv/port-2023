@@ -12,12 +12,10 @@ var notes = [
     "date":"09_07_2023",
     "title":"this is a website",
     "url":"./notes/this_site.md"
-  }
+  },
 ]
 
-notes.sort((a, b) => a.date - b.date)
-
-console.log(notes)
+notes.sort((a, b) => b.date.localeCompare(a.date))
 
 notes.map((note) => {
   console.log(note['url'])
