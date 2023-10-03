@@ -16,4 +16,4 @@ its a small web app that lets me display all messages texted to a phone number, 
 ![](https://s3-external-1.amazonaws.com/media.twiliocdn.com/AC9f6ee7840461f5d77bd8d75d40441963/eb5e39303a93f0e4383a172228a05a5a)
 
 
-for those that care about architecture, the diary uses a flask app to retrieve, store, and display messages pulled a twillio phone number api that captures the texts
+for those that care about architecture, the diary uses a flask app to retrieve, store, and display messages pulled from a twillio phone number api that captures texts
