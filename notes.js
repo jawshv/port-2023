@@ -21,7 +21,7 @@ console.log(notes)
 
 notes.map((note) => {
   console.log(note['url'])
-  if (note['url']) {
+  if (note.url) {
   // create link
   var link = document.createElement("a");
   link.innerHTML = note.title;
