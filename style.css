@@ -64,8 +64,11 @@ details {
     cursor:pointer;
 }
 
+a {
+    color: rgb(41, 56, 142);
+}
+
 #projects a {
-    color: rgb(33, 33, 238);
     width: max-content;
     text-decoration: none;
 }
