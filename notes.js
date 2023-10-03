@@ -15,7 +15,7 @@ var notes = [
   }
 ]
 
-notes.sort()
+notes.sort((a, b) => a.date - b.date)
 
 console.log(notes)
 
