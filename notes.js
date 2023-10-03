@@ -15,21 +15,21 @@ var notes = [
   }
 ]
 
-var entries = Object.entries(notes)
+notes.sort()
 
-console.log(entries)
+console.log(notes)
 
-entries.map((note) => {
-  console.log(note)
-  if (note[1]['url']) {
+notes.map((note) => {
+  console.log(note['url'])
+  if (note['url']) {
   // create link
   var link = document.createElement("a");
-  link.innerHTML = note[1].title;
-  link.href = '#'+note[1].date;
+  link.innerHTML = note.title;
+  link.href = '#'+note.date;
   nav.appendChild(link)
 
   // for each post
-  fetch(note[1].url)
+  fetch(note.url)
     .then((res) => res.text())
     .then((text) => {
       // create post
@@ -39,8 +39,8 @@ entries.map((note) => {
 
       // create anchor
       var date = document.createElement("p");
-      date.innerHTML = note[1].date;
-      date.id = note[1].date;
+      date.innerHTML = note.date;
+      date.id = note.date;
       date.classList.add('date')
       div.appendChild(date)
 
