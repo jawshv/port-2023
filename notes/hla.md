@@ -1,3 +1,3 @@
-### Measure HLA
+### thoughts on volunteers
 
-A little over ago Measure HLA passed.
+A little over a month ago Measure HLA passed.

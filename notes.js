@@ -4,17 +4,17 @@ var nav = document.getElementById("nav")
 
 var notes = [
   // {
-  //   "date": "04_24_2024",
+  //   "date": "04-24-2024",
   //   "title": "hla retrospective",
   //   "url": "./notes/hla.md"
   // },
   {
-    "date": "09_18_2023",
+    "date": "09-18-2023",
     "title": "my diary",
     "url": "./notes/my_diary.md"
   },
   {
-    "date": "09_07_2023",
+    "date": "09-07-2023",
     "title": "this is a website",
     "url": "./notes/this_site.md"
   },
@@ -30,7 +30,7 @@ const getNotes = async () => {
 
       // create link
       var link = document.createElement("a");
-      link.innerHTML = note.title;
+      link.innerHTML = `<span>${note.title}</span>    <span>${note.date}</span>`;
       link.href = '#' + note.date;
       nav.appendChild(link)
 

@@ -100,12 +100,19 @@ display: inline-block;
 }
 
 #nav a {
-    display: list-item;
-    margin-left: 1rem;
+    max-width: 20rem;
+    display: flex;
+    border-bottom: 1px solid;
+    justify-content: space-between;
+    text-decoration: none;
 }
 
 #notebook a {
     color: rgb(28, 147, 21);
+}
+
+#notebook a:hover {
+    color: rgb(154, 120, 20);
 }
 
 #notebook .date {
@@ -119,6 +126,8 @@ display: inline-block;
     max-width: 910px;
     max-height: fit-content;
 }
+
+
 
 
 /* flowers */
@@ -162,6 +171,10 @@ display: inline-block;
         height: 100%;
         height: calc(100vh - env(safe-area-inset-bottom) - 2rem);
         height: -webkit-fill-available;
+    }
+
+    #projects {
+        border: 1px solid rgb(199, 196, 190);
     }
 
     #notebook img {
