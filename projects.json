@@ -31,20 +31,22 @@
           ]
         }
       ],
-      "SFA": [
+      "HLA": [
         {
           "name": "hsla",
-          "link": "https://www.healthystreetsla.com",
-          "copy": "a ballot measure to build thousands of miles of safer streets",
+          "link": "https://www.latimes.com/politics/story/2024-03-05/2024-california-election-los-angeles-city-measure-hla-results",
+          "copy": "Voters in car-centric L.A. approve Measure HLA to make room on streets for bikes, buses [LA Times]",
           "skills": [
             "web",
             "design"
           ]
-        },
+        }
+      ],
+      "SFA": [
         {
           "name": "nada",
           "link": "https://youtu.be/HS6WrJZKbjs",
-          "copy": "a short documentary on the consequences of highway expansion",
+          "copy": "wrote and directed a short doc on the consequences of highway expansion",
           "skills": [
             "video",
             "research"
@@ -53,7 +55,7 @@
         {
           "name": "la25x25",
           "link": "https://la25x25.com/",
-          "copy": "a report challenging LA  to reallocate 25% of streets back to people",
+          "copy": "designed and co-wrote a report challenging LA to reallocate 25% of streets back to people",
           "skills": [
             "web",
             "research",
@@ -63,7 +65,7 @@
         {
           "name": "bdsm",
           "link": "https://twitter.com/jawshv/status/1665142896050446336?s=20",
-          "copy": "BDSM shirts for a cause",
+          "copy": "designed viral pro-transit BDSM shirts",
           "skills": [
             "web",
             "research",

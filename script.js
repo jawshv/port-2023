@@ -12,8 +12,8 @@ const getProjects = fetch('./projects.json')
 
         
 
-// this builds a div for the project to live in
-const createDiv = (proj) => {
+// this builds a li for the project to live in
+const createLi = (proj) => {
     var linkText = document.createTextNode(proj.copy) ;
     var li = document.createElement("li");
     var a = document.createElement("a");
@@ -32,15 +32,19 @@ const appendProjects = () => {
 
         projects.map((proj, i) => {
             const allprojects = document.getElementById('projects')
+
             proj.map((wow) => {
                 var a = document.getElementById(keys[i])
+
+                // create new div if not initilized 
                 if (a == null) {
                     a = document.createElement("div")
                     a.setAttribute("id", keys[i]);
                     allprojects.appendChild(a)
                 }
                
-                var okey = createDiv(wow)
+                var okey = createLi(wow)
+                console.log(okey)
                 a.appendChild(okey);
             })
         })

@@ -9,7 +9,7 @@ as i've been reevaluating my relationship with some websites i still wanted the 
 
 so i built a little diary
 
-its a small web app that lets me display all messages me and pals text to a phone number, it works with any phone that can send an SMS (dumb phones!) and contextualizes the sending number into different profiles so friends can also post to the endpoint and even programmatically generates them a unique URL. it's very simple and nice and makes me happy
+its a small web app that lets me display all messages me and pals text to a phone number, it works with any phone that can send an SMS (dumb phones!) and contextualizes the sending number into different profiles so friends can also post to the endpoint and even programmatically generates them a unique URL. it's pretty simple and nice and makes me happy
 
 ![](https://s3-external-1.amazonaws.com/media.twiliocdn.com/AC9f6ee7840461f5d77bd8d75d40441963/47ae3ae9dfc7f5ef84521adbe912565b)
 ![](https://s3-external-1.amazonaws.com/media.twiliocdn.com/AC9f6ee7840461f5d77bd8d75d40441963/f01b426bd2f79659f194c477f339cb14)
