@@ -12,6 +12,3 @@ now this url hosts a simple and static home that feels very malleable and doesn'
 re: content, everything is either raw HTML, json files converted to html via `createElement`, or this blog which is fetched from an array of markdown files using a tiny (4 KB) .md to HTML [conversion script](https://github.com/adamvleggett/drawdown/blob/master/drawdown.js)
 
 the site is hosted from a repo that lives [here](https://github.com/jawshv/port-2023)
-
-
-

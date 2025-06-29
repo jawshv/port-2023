@@ -24,7 +24,7 @@ const createLi = (proj) => {
     return(li)
 }
 
-// this walks through each project and runs createDiv on it
+// this walks through each project and builds it into a series of divs
 const appendProjects = () => {
     getProjects.then((e) => {
         projects = Object.values(e[0]).reverse()

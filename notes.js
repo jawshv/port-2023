@@ -8,11 +8,11 @@ var notes = [
   //   "title": "hla retrospective",
   //   "url": "./notes/hla.md"
   // },
-  {
-    "date": "09-18-2023",
-    "title": "my diary",
-    "url": "./notes/my_diary.md"
-  },
+  // {
+  //   "date": "09-18-2023",
+  //   "title": "my diary",
+  //   "url": "./notes/my_diary.md"
+  // },
   {
     "date": "09-07-2023",
     "title": "this is a website",
